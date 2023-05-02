@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.container-carta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0 20px;
+}
+
+.container-card {
+    display: flex;
+    width: 1000px;
+    height: auto;
+    background: white;
+    border-radius: 75px;
+    box-shadow: 0px 14px 80px rgba(0, 0, 0, 0.193);
+}
+
+.headers {
+    position: relative;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.headers img {
+    border-radius: 100%;
+    margin: 20px 30px;
+    width: 150px;
+    transition: .2s;
+}
+
+.headers:hover img {
+    box-shadow: 0 0 0 10px rgb(255, 116, 186);
+}
+
+.headers h2 {
+    color: rgb(87, 87, 87)
+}
+
+.headers h4 {
+    margin-bottom: 10px;
+}
+
+.descripcion {
+    position: relative;
+    display: block;
+    padding: 70px;
+    font-size: 25px;
+    text-align: justify;
+}
